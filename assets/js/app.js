@@ -1,9 +1,9 @@
 /*
-const hamburger = document.querySelector(".hamburger");
+const burger = document.querySelector(".burger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 
-hamburger.addEventListener("click", () => {
+burger.addEventListener("click", () => {
   navLinks.classList.toggle("open");
   links.forEach(link => {
     link.classList.toggle("fade");
@@ -12,12 +12,12 @@ hamburger.addEventListener("click", () => {
 */
 
 const navSlide = ()=>{
-  const hamburger = document.querySelector(".hamburger");
+  const burger = document.querySelector(".burger");
   const navLinks = document.querySelector(".nav-links");
   const links = document.querySelectorAll(".nav-links li");
 
   // watch for touch clicks on the whole navbar
-  hamburger.addEventListener('click', () => {
+  burger.addEventListener('click', () => {
     // animate accordinaly
     navLinks.classList.toggle("open");
 
